@@ -13,7 +13,7 @@ public class DeployappApplication {
 @GetMapping("/")
 public String getMessage()
 {
-	return "Hello Guys!! How are you?How well you are doing";
+	return "Hello Guys!! How are you?How well you are doing?";
 }
 @PostMapping("/{name}")
 public String getMessage(@RequestBody String name)
